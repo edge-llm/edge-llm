@@ -1,0 +1,69 @@
+# =========================
+# Node / JS
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Expo / React Native
+# =========================
+.expo/
+.expo-shared/
+web-build/
+
+# =========================
+# Android (CRITICAL)
+# =========================
+android/build/
+android/.gradle/
+.gradle/
+local.properties
+*.iml
+
+# =========================
+# iOS
+# =========================
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# =========================
+# Native build junk
+# =========================
+build/
+dist/
+tmp/
+
+# =========================
+# AI / ML Models (VERY IMPORTANT)
+# =========================
+*.task
+*.tflite
+*.bin
+*.onnx
+*.gguf
+*.pt
+*.pth
+*.safetensors
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*

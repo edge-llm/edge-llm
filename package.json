@@ -1,0 +1,34 @@
+{
+  "name": "edge-llm",
+  "version": "0.1.0",
+  "description": "On-device LLM + RAG + memory for Expo & React Native using MediaPipe",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "llm",
+    "rag",
+    "on-device-ai",
+    "mediapipe",
+    "offline-ai",
+    "edge-ai",
+    "mediapipe",
+    "RAG",
+    "memory"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edge-llm/edge-llm.git"
+  },
+  "author": "DeveloperTirth",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": ">=49",
+    "react": "*",
+    "react-native": "*"
+  }
+}

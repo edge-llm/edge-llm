@@ -1,0 +1,26 @@
+# Android junk
+android/build
+android/.gradle
+android/.idea
+
+# iOS junk
+ios/build
+ios/Pods
+ios/DerivedData
+
+# Gradle & temp
+.gradle
+build
+*.log
+
+# Models & binaries (VERY IMPORTANT)
+*.task
+*.tflite
+*.bin
+*.onnx
+*.gguf
+
+# Dev stuff
+node_modules
+.expo
+.DS_Store
