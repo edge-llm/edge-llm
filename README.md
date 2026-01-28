@@ -27,6 +27,15 @@ yarn add edge-llm
 
 ### 2. Add Model Files
 
+**YOU CAN USE ANY MEDIAPIPE COMPATIBLE MODEL (.task, .litert etc.)**
+- just put them in android\app\src\main\assets\models folder.
+```typescript
+await Mediapipe.init({
+          embeddingModel: "models/universal_sentence_encoder.tflite",
+          llmModel: "models/gemma3n_e2b_int4.task"
+        });
+```
+
 Download the required model files and place them in your project:
 
 ```
